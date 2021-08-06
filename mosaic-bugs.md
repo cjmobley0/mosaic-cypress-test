@@ -1,13 +1,13 @@
-#####PROD and Dev Bugs:
+##### PROD and Dev Bugs:
 
-######Bug: The flag displayed for Virginia is the Flag of Washington
+###### Bug: The flag displayed for Virginia is the Flag of Washington
 
     Steps to Reproduce:
         1. Navigate to https://data-grid-qa-challenge-prod.herokuapp.com/ or https://data-grid-qa-challenge-dev.herokuapp.com/
         2. Scroll down to Washington row
         3. Flag cell is displaying the flag for Virginia
 
-######Bug: When sorting by Population or Size, the column header displays sorting by "A-Z" when it should represent numberical sorting (ie. High-Low)
+###### Bug: When sorting by Population or Size, the column header displays sorting by "A-Z" when it should represent numberical sorting (ie. High-Low)
 
     Steps to Reproduce:
         1. Navigate to https://data-grid-qa-challenge-prod.herokuapp.com/ or https://data-grid-qa-challenge-dev.herokuapp.com/
@@ -15,7 +15,7 @@
         3. Data is sorted numberically Low-High [High-Low in Dev]
         4. Header displays Population (A-Z) or Size (A-Z) [(Z-A) in Dev]
 
-######Bug: Flags are not sorting by A-Z or Z-A but instead the index at which the images are stored by
+###### Bug: Flags are not sorting by A-Z or Z-A but instead the index at which the images are stored by
 
     Steps to Reproduce:
         1. Navigate to https://data-grid-qa-challenge-prod.herokuapp.com/ or https://data-grid-qa-challenge-dev.herokuapp.com/
@@ -37,9 +37,9 @@
 
 
 
-#####Dev Only Bugs:
+##### Dev Only Bugs:
 
-######BUG: On initial click of a column, the date is sorted by Z-A or Low-High instead of A-Z or High-Low
+###### BUG: On initial click of a column, the date is sorted by Z-A or Low-High instead of A-Z or High-Low
 
     Steps to Reproduce:
         1. Navigate to https://data-grid-qa-challenge-prod.herokuapp.com/ or https://data-grid-qa-challenge-dev.herokuapp.com/
