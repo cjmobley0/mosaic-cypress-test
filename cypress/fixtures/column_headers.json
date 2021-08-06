@@ -1,0 +1,9 @@
+{
+  "columnHeaders": {
+    "State": 0,
+    "Abbreviation": 1,
+    "Population": 2,
+    "Size": 3,
+    "Flag": 4
+  }
+}

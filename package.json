@@ -1,0 +1,17 @@
+{
+  "name": "mosaic-cypress-test",
+  "version": "1.0.0",
+  "description": "Cypress Automation for Mosaic Demo App",
+  "main": "index.js",
+  "scripts": {
+    "cypress:run": "cypress run",
+    "cypress:run-dev": "cypress run --config baseUrl=https://data-grid-qa-challenge-dev.herokuapp.com/",
+    "cypress:open": "cypress open",
+    "cypress:open-dev": "cypress open --config baseUrl=https://data-grid-qa-challenge-dev.herokuapp.com/"
+  },
+  "author": "Christopher Mobley",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.2.0"
+  }
+}
